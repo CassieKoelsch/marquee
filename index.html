@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Example Image Scroller</title>
+    <link rel="stylesheet" href="marquee.css">
+</head>
+<body>
+    <div class="content">
+        <div id="scroller" class="container">
+            <ul>
+                <li>
+                    <img src="">
+                </li>
+                <li>
+                    <img src="">
+                </li>
+                <li>
+                    <img src="">
+                </li>
+                <li>
+                    <img src="">
+                </li>
+                <li>
+                    <img src="">
+                </li>
+            </ul>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="marquee.js"></script>
+        <script type="text/javascript">
+        $('#scroller').marquee({
+            leftToRight: true,
+            speed: 4,
+            pause: false
+        });
+    </script>
+    </div>
+</body>
+</html>
